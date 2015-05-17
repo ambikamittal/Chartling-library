@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title id='Description'>Simple Charting library</title>
+	<link rel="stylesheet" href="css/chartingLib.css">
+	<script src="js/chartingLib.js"></script>
+	<script>
+		var chartCfg = {
+					name: ['Orange', 'Apple', 'Mango', 'Banana','Papaya'],
+					data: [100, 200, 500, 50, 70]
+				};
+		var C = new Chart(chartCfg);
+	</script>
+</head>
+<body></body>
+</html>
