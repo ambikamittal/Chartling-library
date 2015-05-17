@@ -1,0 +1,54 @@
+.headingContainer{
+	margin: 0 auto;
+	max-width:700px;
+	text-align: center;
+	font-size:18px;
+}
+
+.chart {
+	display: table;
+	width: 60%;
+	max-width: 700px;
+	height: 500px;
+	margin: 0 auto;
+	background-image: linear-gradient(to top, black, rgba(0, 0, 0, 0) 2%);
+	background-size: 100% 50px;
+	background-position: left top;
+	border-left:1px solid;
+	border-right:1px solid;
+	border-top:1px solid;
+}
+.chart li {
+	position: relative;
+	display: table-cell;
+	vertical-align: bottom;
+	}
+	
+.chart span {
+	margin: 0 1em;
+	display: block;
+	background: skyblue;
+	border:.5px solid black;
+}
+.chart span:before {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 100%;
+	padding: 5px 16px 0;
+	text-align: center;
+	content: attr(title);
+	word-wrap: break-word;
+}
+.textRotate{
+	transform: rotate(-90deg);
+	bottom:50%;
+	left:200px;
+	position:absolute;
+	font-size:18px;
+	}
+@keyframes draw {
+	0px {
+		height: 0;
+	}
+}
